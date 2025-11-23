@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.0.11217.181 d18.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "demos", "demos", "{38C5F306-3B66-4075-B67F-73450C9605C6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dapper.Core", "src\Dapper.Core\Dapper.Core.csproj", "{A5F2FBEE-0192-4806-AD85-B29093F4E9C4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demos.Dapper.App", "demos\Demos.Dapper.App\Demos.Dapper.App.csproj", "{64406949-7C8E-4060-B319-C062D6DC8361}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Configuration", "src\Configuration\Configuration.csproj", "{6BBF307D-A8F5-498F-9A57-3F9CCA0EC0D1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "database-scripts", "database-scripts", "{FCBD6C16-9285-4365-BFC4-EBE7C0D5D315}"
+	ProjectSection(SolutionItems) = preProject
+		database-scripts\create_db_tables.sql = database-scripts\create_db_tables.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5F2FBEE-0192-4806-AD85-B29093F4E9C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5F2FBEE-0192-4806-AD85-B29093F4E9C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5F2FBEE-0192-4806-AD85-B29093F4E9C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5F2FBEE-0192-4806-AD85-B29093F4E9C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64406949-7C8E-4060-B319-C062D6DC8361}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64406949-7C8E-4060-B319-C062D6DC8361}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64406949-7C8E-4060-B319-C062D6DC8361}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64406949-7C8E-4060-B319-C062D6DC8361}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BBF307D-A8F5-498F-9A57-3F9CCA0EC0D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BBF307D-A8F5-498F-9A57-3F9CCA0EC0D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BBF307D-A8F5-498F-9A57-3F9CCA0EC0D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BBF307D-A8F5-498F-9A57-3F9CCA0EC0D1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{64406949-7C8E-4060-B319-C062D6DC8361} = {38C5F306-3B66-4075-B67F-73450C9605C6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2CBD6313-AA49-45AD-A20A-38A86293F8A5}
+	EndGlobalSection
+EndGlobal
